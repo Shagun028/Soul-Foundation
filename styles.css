@@ -1,0 +1,180 @@
+
+    html, body {
+    height:100%;
+    width:100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.navbar {
+    background-color:burlywood;
+    padding: 1% 0;
+    font-size: 1.2em
+}
+@import url('https://fonts.googleapis.com/css2?family=Your+Google+Font:ital,wght@0,400;0,700;1,400&display=swap');
+
+.navbar-brand {
+    color: brown;
+    font-size: 30px;
+    font-family:"https://fonts.google.com/specimen/Alegreya+Sans";
+    font-style: bold;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+    
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #3092e3;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #3092e3;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #3092e3;
+    border: 2px solid #3092e3;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: #000;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+
+#home {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(Image.jpg) no-repeat center center fixed ;
+    color: #d5d5d5;
+    display: table;
+    height: 100%;
+    position: relative;
+    width:100%;
+    background-size: cover;
+}
+.landing-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.landing-text h1,
+.landing-text h3,
+.landing-text a {
+    color: white; /* Set the text color to white */
+}
+
+.landing-text a:hover {
+    color: #a0a0a0; /* Set the hover color if needed */
+}
+.landing-text h1 {
+    font-size: 500%;
+    font: weight 700%;
+}
+.padding {
+    padding: 80px 0;
+}
+.padding img {
+    width: 100%
+}
+#fixed {
+    background: url(childrenofwar.jpg) center center fixed;
+    display : table;
+    height : 60% ;
+    position: relative;
+    width : 100%;
+    background-size : cover;
+
+}
+footer {
+    width: 100%;
+    background-color: brown;
+    padding: 5% 5% 10% 5%;
+    color:aliceblue
+}
+.fa {
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+}
+.fa:hover{
+    color : #d5d5d5;
+    text-decoration: none;
+}
+.icon {
+    width: 100%;
+    height: 100%;
+}
